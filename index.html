@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bugün Nasıl Hissediyorsun TUĞÇE?</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            /* Arka plan: Derin, Şık Mor Gradyan */
+            background: linear-gradient(135deg, #2d004d, #1a0033, #0d001a);
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 400px;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.05);
+            padding: 35px 25px;
+            border-radius: 28px;
+            box-shadow: 0 15px 50px rgba(0, 0, 0, 0.6);
+            backdrop-filter: blur(15px);
+            -webkit-backdrop-filter: blur(15px);
+            border: 1px rgba(255, 255, 255, 0.12) solid;
+        }
+        h1 {
+            font-size: 24px;
+            margin-bottom: 12px;
+            font-weight: 700;
+            letter-spacing: 0.8px;
+            color: #e0b3ff;
+        }
+        p {
+            font-size: 15px;
+            color: #d1b3ff;
+            margin-bottom: 35px;
+            line-height: 1.6;
+        }
+        .btn {
+            display: block;
+            width: 100%;
+            padding: 18px;
+            margin: 18px 0;
+            border: none;
+            border-radius: 50px;
+            font-size: 16px;
+            font-weight: bold;
+            color: #fff;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+        }
+        
+        /* Tema ile Uyumlu Yumuşak Buton Renkleri */
+        .mutlu { 
+            background: linear-gradient(45deg, #ff9a9e, #fad0c4); 
+            color: #4a148c;
+        }
+        .mutsuz { 
+            background: linear-gradient(45deg, #a366ff, #cc99ff);
+            color: #1a0033;
+        }
+        .anksiyete { 
+            background: linear-gradient(45deg, #7a00cc, #9900ff); 
+        }
+        
+        /* Hover Efektleri */
+        .btn:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.5);
+        }
+        .btn:active {
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Doğum Günün Kutlu Olsun Tuğçe! ✨</h1>
+        <p>Bugün kendini nasıl hissediyorsun?<br>Bir mod seç, gerisini bana bırak.</p>
+        
+        <a href="https://music.youtube.com/watch?v=eDUajWr0xoM&si=tUpUkfpjeyT9GQde" target="_blank" class="btn mutlu">😊 Mutlu</a>
+        <a href="https://music.youtube.com/watch?v=zwus_6HxMFo&si=bXUrYreINQ5C35vn" target="_blank" class="btn mutsuz">😔 Modum Düşük</a>
+        <a href="https://music.youtube.com/watch?v=B02onrmrjxI&si=h0ALx3QoP25S8_Po" target="_blank" class="btn anksiyete">🌀 Kafam Yoğun / Anksiyete</a>
+    </div>
+
+</body>
+</html>
